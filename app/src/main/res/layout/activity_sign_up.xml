@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#978B8B"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/cornorview1"
+        android:hint="Enter the Name" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textColorHint="@color/black"
+        android:background="@drawable/cornorview1"
+        android:textColor="@color/black"
+        android:hint="Enter the Email" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/cornorview1"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Enter the password" />
+
+    <TextView
+        android:id="@+id/tvAlreadyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="Already have Account" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="250dp"
+        android:textColor="@color/white"
+        android:text="SignUp"
+        app:backgroundTint="#020202"
+        app:cornerRadius="10dp" />
+</LinearLayout>
